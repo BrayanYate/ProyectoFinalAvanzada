@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background:url(../img/fondo.jpeg) no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+}
+.container h1 {
+    float: left;
+    font-size: 40px;
+    border-bottom: 6px solid;
+    margin-bottom: 30 px;
+}
+input{
+   width: 100%;
+   border: 1px solid;
+   border-radius: 4px;
+   margin: 8px 0;
+   outline: none;
+   padding: 8px;
+   box-sizing: border-box;
+   transition: 32; 
+}
+input:focus{
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
+input[type="submit"]{
+    color: white;
+    background-color: rgb(205, 92, 92);
+    width: 20;
+}
+.select-css{
+    width: 100%;
+}

@@ -1,0 +1,48 @@
+body{
+    font-family: sans-serif;
+    background:url(../img/fondo2.jpg) no-repeat;
+    background-size: cover;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+    color: black;
+}
+.container h{
+    font-size: 16px;
+    color: white;
+}
+h1{
+    color: white;
+}
+.container img{
+    width:80%; 
+    height:200%;
+}
+
+
+input{
+   width: 30%;
+   border: 1px solid;
+   border-radius: 4px;
+   margin: 8px 0;
+   outline: none;
+   padding: 8px;
+   box-sizing: border-box;
+   transition: 32; 
+}
+input[type="submit"]{
+    color: white;
+    background-color: rebeccapurple;
+    width: 20;
+}
+input[type="text"]{
+    width: 0%;
+}
+body h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
